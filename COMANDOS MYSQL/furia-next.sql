@@ -23,8 +23,6 @@ create table noticias(
     jogo varchar(30) not null
 );
 
-drop table noticias;
-
 insert into usuarios (username, email, senha, jogo_favorito) values ("furiagg", "teste@furiagg.com", "123456789", "cs");
 
 
