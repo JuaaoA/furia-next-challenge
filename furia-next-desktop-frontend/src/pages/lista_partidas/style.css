@@ -1,0 +1,75 @@
+.lista_partidas_item {
+    display: flex;
+    justify-content: space-between;
+
+    height: 60px;
+
+    border: 1px solid beige;
+    border-radius: 5px;
+
+    margin-top: 5px;
+
+    text-decoration: none;
+}
+
+.lista_partidas_item:hover {
+    background-color: gray;
+}
+
+.lista_partidas_item:active {
+    background-color: rgb(233, 233, 233);
+}
+
+.lista_partidas_item * {
+    margin-top: 3px;
+}
+
+.andamento_partida_item {
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.icone_jogo_partida {
+    height: 40px;
+    padding-top: 5px;
+}
+
+.divisor_times {
+    padding-top: 17px;
+    margin: 0px 15px;
+}
+
+.nome_jogo_partida {
+    padding-top: 13px;
+}
+
+.jogo_partida_item {
+    display: flex;
+}
+
+.time_icone {
+    height: 40px;
+}
+
+.nome_time_item {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.time_divisao {
+    margin: 2px;
+    display: flex;
+}
+
+.times_partida_item {
+    display: flex;
+}
+
+#vitoria {
+    color: greenyellow;
+}
+
+#derrota {
+    color: red;
+}

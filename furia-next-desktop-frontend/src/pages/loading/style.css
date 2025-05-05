@@ -1,0 +1,16 @@
+.tela_loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.logo_furia {
+    height: 35%;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, white 0%, #999 20%, #333 46%, black 80%);
+}

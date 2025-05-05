@@ -1,0 +1,18 @@
+Com a pasta "furia-next-desktop-frontend" aberta no 
+Visual Studio Code digite o comando:
+
+npm install
+
+Isso fará com que o node instale as dependências do projeto
+(Node.Js precisa estar instalado na sua máquina)
+
+===========================================================
+Por fim, inicie o projeto com o comando:
+
+npm start
+
+Assim, o frontend desktop deverá abrir
+
+
+OBS: É necessário que a BACKEND API esteja aberta e rodando
+devidamente conectada ao MySQL com suas tabelas já prontas.

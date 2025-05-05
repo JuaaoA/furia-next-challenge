@@ -1,0 +1,16 @@
+{
+  "name": "furia-next-challenge",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "electron": "^35.2.1"
+  }
+}

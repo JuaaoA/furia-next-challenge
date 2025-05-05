@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Special+Gothic+Expanded+One&display=swap');
+
+* {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noticia_imagem {
+    width: 250px;
+    height: 140px;
+}
+
+.noticia_titulo {
+    height: 45px;
+}
+
+.noticia_jogo {
+    padding-top: 10px;
+}
+
+.boas_vindas_inicio {
+    margin-bottom: 10px;
+}
+
+.noticias_item {
+    width: 275px;
+    background-color: rgb(92, 92, 92);
+
+    padding: 10px;
+    padding-bottom: 0px;
+
+    margin-right: 5px;
+
+    display: flex;
+    flex-direction: column;         
+    justify-content: center;        
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+#area_noticias {
+    display: flex;
+}
+
+.botoes_nav_jogo {
+    margin-bottom: 160px;
+}

@@ -1,0 +1,36 @@
+#foto_jogador {
+    height: 100px;
+    margin: 5px;
+}
+
+#nick_jogador {
+    margin-top: 50px;
+}
+
+.jogador_info_topo {
+    display: flex;
+}
+
+.imagem_time {
+    height: 100px;
+}
+
+.time {
+    display: flex;
+}
+
+.container_link_time {
+    display: flex;
+}
+
+.nome_time_jogador {
+    margin-top: 30px;
+}
+
+.icone_jogo_jogador {
+    height: 100px;
+}
+
+#nick_jogador_info {
+    margin-top: 15px;
+}

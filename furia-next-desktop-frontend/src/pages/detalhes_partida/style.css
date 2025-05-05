@@ -1,0 +1,60 @@
+.time_icone {
+    height: 100px;
+}
+
+.times_participantes {
+    display: flex;
+    justify-content: center;
+}
+
+.nome_time_item {
+    padding-top: 50px;
+    font-size: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.time_divisao {
+    display: flex;
+    padding: 20px;
+
+    border-radius: 15px;
+
+    text-decoration: none;
+}
+
+.time_divisao:hover {
+    background-color: gray;
+}
+
+.time_divisao:active {
+    background-color: rgb(233, 233, 233);
+}
+
+.divisor_times {
+    display: flex;
+    padding-top: 75px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.time_icone {
+    display: flex;
+}
+
+#vitoria {
+    color: greenyellow;
+}
+
+#derrota {
+    color: red;
+}
+
+.detalhes_partida_jogo_imagem {
+    height: 70px;
+}
+
+.detalhes_partida_jogo {
+    display: flex;
+    align-items: center;
+}

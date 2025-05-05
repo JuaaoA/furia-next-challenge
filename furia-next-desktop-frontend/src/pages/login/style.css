@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Special+Gothic+Expanded+One&display=swap');
+
+* {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.login_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.nao_possui_conta_container {
+    margin-bottom: 2px;
+}
+
+.boas_vindas_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 32px;
+}
+
+.btn-primary {
+    width: 350px;
+}
+
+.container_input {
+    margin-top: 7px;
+    margin-bottom: 4px;
+}
+
+#fundo_login {
+    background-color: #868484;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    display: flex;
+
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+}
+
+.nao_possui_conta_container a {
+    color: black;
+    text-decoration: none;
+}
+
+.nao_possui_conta_container a:hover {
+    color: #222;
+}
+
+#reporte_erro {
+    color: red;
+}

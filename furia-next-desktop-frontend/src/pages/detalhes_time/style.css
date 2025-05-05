@@ -1,0 +1,35 @@
+#foto_time {
+    height: 100px;
+}
+
+#nome_time {
+    margin-top: 10px;
+}
+
+.time_info_topo {
+    display: flex;
+}
+
+.icone_jogo_time {
+    height: 100px;
+}
+
+.jogador {
+    padding: 3px;
+    margin-bottom: 3px;
+
+    border: 1px solid beige;
+    border-radius: 5px;
+}
+
+.jogador:hover {
+    background-color: #444;
+}
+
+.jogador a {
+    text-decoration: none;
+}
+
+.jogador_nome_item {
+    color: white;
+}

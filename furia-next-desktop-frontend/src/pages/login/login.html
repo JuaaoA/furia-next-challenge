@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas vindas ao Furia Next!</title>
+
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../main_content_style/style.css" type="text/css">
+</head>
+<body id="fundo_login">
+    
+    <div class="boas_vindas_container">
+        Boas vindas ao Furia Next!
+    </div>
+
+    <div class="login_container">
+
+        <form class="campos_container" id="formLogin">
+
+            <div class="container_input">
+                <label>Username</label>
+
+                <input id="username_field" name="username" type="text" class="form-control" required>   
+            </div>
+
+            <div class="container_input">
+                <label>Senha</label>
+
+                <input id="senha_field" name="senha" type="password" class="form-control" required>   
+            </div>
+            
+            <div class="nao_possui_conta_container">
+                Não possui conta? <a href="../criar_conta/criar_conta.html">Crie a sua agora!</a>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Login</button>
+        </form>
+    </div>
+
+    <div class="container_aviso">
+        <span id="reporte_erro"></span>
+    </div>
+
+    <script type="module" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

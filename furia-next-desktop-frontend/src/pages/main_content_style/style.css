@@ -1,0 +1,30 @@
+.title {
+    font-size: 36px;
+    padding: 15px 10px;
+    margin-bottom: -15px;
+}
+
+.main_content {
+    background-color: #868484;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+* {
+    color: ghostwhite;
+}
+
+.btn-primary {
+    background-color: #FFF;
+    color: black;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #AAA;
+    color: black;
+}
+
+.btn-primary:active {
+    background-color: #777;
+}
