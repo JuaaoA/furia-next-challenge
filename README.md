@@ -12,7 +12,7 @@ Furia Next visa aproximar a comunidade da FURIA ao disponibilizar dados relevant
 - Resultados de partidas
 - Lista de Partidas
 - Informações sobre jogadores e times
-- Notícias do cenário competitivo
+- Notícias dos jogos e do cenário competitivo
 
 ---
 
