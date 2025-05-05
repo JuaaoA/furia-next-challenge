@@ -29,7 +29,7 @@ Este projeto é composto por um **frontend** e um **backend com banco de dados**
 - C#
 - ASP.NET Core
 - MySQL
-
+- Utilização da API PandaScore
 ---
 
 ## ⚙️ Documentação
